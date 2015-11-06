@@ -1,0 +1,73 @@
+body {
+  background-color: lightgray;
+}
+
+div {
+  border: 1px solid chocolate;
+}
+
+
+
+/* ------------------------ */
+
+
+
+/* ~~~~ MAIN STYLES ~~~~ */
+
+body {
+  color: #000;
+  font-size: 16px;
+  font-family: 'Helvetica', sans-serif;
+}
+
+a, a:visited, a:link {
+  color: #aaa;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+
+
+
+/* ~~~~ NAVIGATION BAR ~~~~ */
+
+nav {
+  background-color: #fff;
+}
+
+
+.content {
+  margin: 0 auto;
+  padding: 10px 0;
+  width: 970px;
+}
+
+
+.logo, .navigation {
+  vertical-align: middle;
+}
+
+.logo {
+  width: 25px;
+}
+
+.navigation {
+  position: relative;
+  left: 25%;
+  display: inline-block;
+  list-style-type: none;
+}
+
+a.firstlist {
+  color: #111;
+  font-weight: bold;
+}
+
+.navigation > li {
+  margin: 0 15px;
+  display: inline-block;
+  }
