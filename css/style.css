@@ -57,6 +57,7 @@ nav {
   width: 100%;
   z-index: 10;
   background-color: #fff;
+  border-bottom: 1px #eee solid;
 }
 
 .content {
@@ -151,9 +152,39 @@ button:hover {
   width: 125px;
 }
 
-/*.three li {
 
-}*/
+
+/* ~~~~ FOOTER ~~~~ */
+
+footer {
+  margin: 0;
+  padding: 100px 0;
+  background-color: #fff;
+  text-align: center;
+}
+
+.content-footer {
+  border-top: 1px #ccc solid;
+}
+
+.footer {
+  color: black;
+}
+
+.social {
+  margin: 10px 10px;
+  padding: 10px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 1px #eee solid;
+  border-radius: 50%;
+}
+
+.copyright {
+  font-size: 14px;
+  font-weight: 300;
+}
 
 
 
